@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/singleRow_nameTV"
+        android:text="User Name"
+        android:padding="10dp"
+        android:background="@android:color/holo_orange_dark"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:id="@+id/singleRow_statusTV"
+        android:text="This is a sampleStatus"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/singleRow_nameTV"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"
+        android:layout_below="@id/singleRow_statusTV"
+        />
+
+
+
+</RelativeLayout>
